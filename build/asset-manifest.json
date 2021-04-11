@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mediavelocity/static/css/main.eb396d2a.chunk.css",
+    "main.js": "/mediavelocity/static/js/main.771bc2c0.chunk.js",
+    "main.js.map": "/mediavelocity/static/js/main.771bc2c0.chunk.js.map",
+    "runtime-main.js": "/mediavelocity/static/js/runtime-main.212fd4d1.js",
+    "runtime-main.js.map": "/mediavelocity/static/js/runtime-main.212fd4d1.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/mediavelocity/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.40aa1934.chunk.js": "/mediavelocity/static/js/2.40aa1934.chunk.js",
+    "static/js/2.40aa1934.chunk.js.map": "/mediavelocity/static/js/2.40aa1934.chunk.js.map",
+    "static/js/3.a8ac7a69.chunk.js": "/mediavelocity/static/js/3.a8ac7a69.chunk.js",
+    "static/js/3.a8ac7a69.chunk.js.map": "/mediavelocity/static/js/3.a8ac7a69.chunk.js.map",
+    "index.html": "/mediavelocity/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/mediavelocity/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.eb396d2a.chunk.css.map": "/mediavelocity/static/css/main.eb396d2a.chunk.css.map",
+    "static/js/2.40aa1934.chunk.js.LICENSE.txt": "/mediavelocity/static/js/2.40aa1934.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.212fd4d1.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.40aa1934.chunk.js",
+    "static/css/main.eb396d2a.chunk.css",
+    "static/js/main.771bc2c0.chunk.js"
+  ]
+}
