@@ -8,7 +8,7 @@ import { Row, Col, Container, Image } from 'react-bootstrap';
 const Magazine = () => {
     return(
 
-        <Container fluid className="p-0">
+        <Container fluid className="p-0 bg-dark">
         <Row>
         <Col lg={6} md={12}>
           <Image fluid src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/653f92285a840727152f6fb9_rw_1200.jpg?h=e9de3c76ed7ea5d663c881b72aa6ad6f" />

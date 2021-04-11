@@ -1,8 +1,7 @@
 import { FaEnvelope, FaPhone, FaYoutube, FaBehance, FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Container, Image } from 'react-bootstrap';
-
-
+import LogoMvRed from "./LogoMvRed";
 
 
 const SocialIcons = () => {
@@ -11,6 +10,8 @@ const SocialIcons = () => {
 
   return (
     <div className="p-1">
+
+     {/* <LogoMvRed /> */}
      
      <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="mailto:james.gerhold@mediavelocity.com"><FaEnvelope /></a>
 

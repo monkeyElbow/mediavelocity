@@ -10,9 +10,12 @@ a.SocialStyle{
     color:grey;
   }
 
-  html, body {
-    overflow-x: hidden;
+  html{
+    width: 100vw;
   }
+  
   body {
-    position: relative
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
   }
