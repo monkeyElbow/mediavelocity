@@ -27,9 +27,12 @@ const SonnyBIO = () => {
     
 <p class="lead">CONTACT</p>
 <hr />
+<p>
+<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="tel:+14172687512"><FaPhone /> (417) 268-7512</a></p>
 
-<p>(417) 268-7512</p>
-<p>sonny.carder@mediavelocity.com</p>
+<p>
+<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="mailto:sonny.carder@mediavelocity.com"><FaEnvelope /> sonny.carder@mediavelocity.com</a>
+</p>
 
 <p>4867 South Blakey Court<br />
 Springfield, MO 65810</p>
