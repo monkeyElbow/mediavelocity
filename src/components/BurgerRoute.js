@@ -1,5 +1,5 @@
 import ResponsiveEmbed from "react-responsive-embed";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const BurgerRoute = () => {
     return(
@@ -7,7 +7,7 @@ const BurgerRoute = () => {
         <ResponsiveEmbed
         id="burgerRoute"
         src="https://www.youtube.com/embed/JG2F4hcc9H0"
-        allowfullscreen
+        allowFullScreen
       />
 
       <Container fluid className="p-lg-3 p-md-2 bg-dark text-white">

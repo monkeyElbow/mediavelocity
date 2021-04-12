@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Row, Col, Container, Image } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 import Gallery from 'react-photo-gallery';
 import {PhotosCharter, PhotosCharterLead} from './PhotosCharter';

@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { Row, Col, Container, Image } from "react-bootstrap";
-import { useSpring } from "react-spring";
-import LogoMv from "./LogoMv";
+// import { Link } from "react-router-dom";
+import { Row, Col, Container } from "react-bootstrap";
+// import { useSpring } from "react-spring";
+// import LogoMv from "./LogoMv";
 import SocialIcons from "./SocialIcons";
 import LogoMvRed from "./LogoMvRed";
 

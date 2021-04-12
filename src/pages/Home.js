@@ -8,7 +8,6 @@ import { PhotosConklin } from "../components/PhotosConklin";
 // import { PhotosFood } from "./components/PhotosFood";
 import CharterModule from "../components/CharterModule";
 import Magazine from "../components/Magazine";
-import MenuBar from "../components/MenuBar";
 import GsbYourDay from "../components/gsbYourDay";
 import HellmansSalad from "../components/HellmanSalad";
 import BurgerRoute from "../components/BurgerRoute";
@@ -22,7 +21,7 @@ const Home = () => {
 <ResponsiveEmbed
         id="GrandmaCall"
         src="https://www.youtube.com/embed/_DEaSL8w6-A"
-        allowfullscreen
+        allowFullScreen
       />
 
       <CharterModule />
@@ -30,13 +29,13 @@ const Home = () => {
       <ResponsiveEmbed
         id="CharterTV"
         src="https://www.youtube.com/embed/JONfva999bw"
-        allowfullscreen
+        allowFullScreen
       />
 
       <ResponsiveEmbed
         id="TacoTuesday"
         src="https://www.youtube.com/embed/NeOi3lTZauc"
-        allowfullscreen
+        allowFullScreen
       />
 
  <HellmansSalad />
@@ -44,13 +43,13 @@ const Home = () => {
       <ResponsiveEmbed
         id="MSUsportsFan"
         src="https://www.youtube.com/embed/gtaFPmNaS4w"
-        allowfullscreen
+        allowFullScreen
       />
 
       <ResponsiveEmbed
         id="gsbWereFansToo"
         src="https://www.youtube.com/embed/Bm-U6Q6oob0"
-        allowfullscreen
+        allowFullScreen
       />
 
       <Gallery photos={PhotosConklin} />
@@ -60,7 +59,7 @@ const Home = () => {
       <ResponsiveEmbed
         id="gsbAtTheMovies"
         src="https://www.youtube.com/embed/yh76dOxA2AY"
-        allowfullscreen
+        allowFullScreen
       />
 
       <Magazine />
@@ -68,7 +67,7 @@ const Home = () => {
       <ResponsiveEmbed
         id="DebitOnOff"
         src="https://www.youtube.com/embed/gPQVVZWCJOQ"
-        allowfullscreen
+        allowFullScreen
       />
 
       <GsbYourDay />
@@ -76,13 +75,13 @@ const Home = () => {
       <ResponsiveEmbed
         id="gsbGOAT"
         src="https://www.youtube.com/embed/tzwzX2O8L5U"
-        allowfullscreen
+        allowFullScreen
       />
 
       {/* <ResponsiveEmbed
         id="MothersBot"
         src="https://www.youtube.com/embed/PyM-2WfmZo4"
-        allowfullscreen
+        allowFullScreen
       /> */}
         </>
     )

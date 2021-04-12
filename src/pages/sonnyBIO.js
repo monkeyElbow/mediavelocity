@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaYoutube, FaBehance, FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const SonnyBIO = () => {
 
