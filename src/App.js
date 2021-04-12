@@ -19,9 +19,9 @@ function App() {
 
 <Switch>
 
-<Route path="/sonny" component={SonnyBIO} />
+<Route exact path="/sonny" component={SonnyBIO} />
 {/* <Route path="/james" component={James} /> */}
-<Route path="/" component={Home} />
+<Route exact path="/" component={Home} />
 <Route component={PageNotFound} />
 
 </Switch>
