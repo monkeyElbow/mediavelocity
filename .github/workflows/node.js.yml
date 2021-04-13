@@ -25,7 +25,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp://ftp.mediavelocity.com
+        server: ${{ secrets.FTP_SERVER }}
         username: github
         password: ${{ secrets.FTP_PW }}
-        args: --verbose
