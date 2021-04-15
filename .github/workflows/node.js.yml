@@ -27,6 +27,6 @@ jobs:
       with:
         server: ftp://ftp.mediavelocity.com
         username: github
-        password: ${{ secrets.FTP_PW }}
+        password: ${{ secrets.ftp_password }}
         local-dir : build
         
