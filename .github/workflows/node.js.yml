@@ -25,7 +25,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp://ftp.mediavelocity.com
+        server: ftp.mediavelocity.com
         username: github
         password: ${{ secrets.ftp_password }}
         local-dir : build/
