@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Container } from 'react-bootstrap';
+import ResponsiveEmbed from "react-responsive-embed";
 
 import Gallery from 'react-photo-gallery';
 import {PhotosCharter, PhotosCharterLead} from './PhotosCharter';
@@ -7,7 +8,7 @@ import {PhotosCharter, PhotosCharterLead} from './PhotosCharter';
 
 const CharterModule = () => {
     return(
-
+<>
         <Container fluid className="p-0">
         <Row>
         <Col lg={12} md={12}>
@@ -19,6 +20,14 @@ const CharterModule = () => {
         
         </Row>
         </Container>
+
+<ResponsiveEmbed
+id="CharterTV"
+src="https://www.youtube.com/embed/JONfva999bw"
+allowFullScreen
+/>
+
+</>
     )
 }
 

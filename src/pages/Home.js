@@ -11,12 +11,14 @@ import Magazine from "../components/Magazine";
 import GsbYourDay from "../components/gsbYourDay";
 import HellmansSalad from "../components/HellmanSalad";
 import BurgerRoute from "../components/BurgerRoute";
-
+import RangersAdventure from "../components/RangersAdventure";
 
 
 const Home = () => {
     return(
         <>
+
+
 
 <ResponsiveEmbed
         id="GrandmaCall"
@@ -24,13 +26,11 @@ const Home = () => {
         allowFullScreen
       />
 
+<RangersAdventure />
+      <HellmansSalad />
       <CharterModule />
 
-      <ResponsiveEmbed
-        id="CharterTV"
-        src="https://www.youtube.com/embed/JONfva999bw"
-        allowFullScreen
-      />
+
 
       <ResponsiveEmbed
         id="TacoTuesday"
@@ -38,23 +38,22 @@ const Home = () => {
         allowFullScreen
       />
 
- <HellmansSalad />
 
+
+<BurgerRoute />
+      <ResponsiveEmbed
+        id="gsbWereFansToo"
+        src="https://www.youtube.com/embed/Bm-U6Q6oob0"
+        allowFullScreen
+      />
       <ResponsiveEmbed
         id="MSUsportsFan"
         src="https://www.youtube.com/embed/gtaFPmNaS4w"
         allowFullScreen
       />
 
-      <ResponsiveEmbed
-        id="gsbWereFansToo"
-        src="https://www.youtube.com/embed/Bm-U6Q6oob0"
-        allowFullScreen
-      />
-
       <Gallery photos={PhotosConklin} />
 
-<BurgerRoute />
 
       <ResponsiveEmbed
         id="gsbAtTheMovies"
