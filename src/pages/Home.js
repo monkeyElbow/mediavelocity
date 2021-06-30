@@ -12,12 +12,12 @@ import GsbYourDay from "../components/gsbYourDay";
 import HellmansSalad from "../components/HellmanSalad";
 import BurgerRoute from "../components/BurgerRoute";
 import RangersAdventure from "../components/RangersAdventure";
+import BurningMiles from "../components/BurningMiles";
 
 
 const Home = () => {
     return(
         <>
-
 
 
 <ResponsiveEmbed
@@ -82,8 +82,9 @@ const Home = () => {
         src="https://www.youtube.com/embed/PyM-2WfmZo4"
         allowFullScreen
       /> */}
+    <BurningMiles />
         </>
     )
-}
-
-export default Home;
+  }
+  
+  export default Home;
