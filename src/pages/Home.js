@@ -13,7 +13,7 @@ import HellmansSalad from "../components/HellmanSalad";
 import BurgerRoute from "../components/BurgerRoute";
 import RangersAdventure from "../components/RangersAdventure";
 import BurningMiles from "../components/BurningMiles";
-
+import SLTheatre from "../components/SLTheatre";
 
 const Home = () => {
     return(
@@ -77,11 +77,13 @@ const Home = () => {
         allowFullScreen
       />
 
-      {/* <ResponsiveEmbed
+<SLTheatre />
+
+      <ResponsiveEmbed
         id="MothersBot"
         src="https://www.youtube.com/embed/PyM-2WfmZo4"
         allowFullScreen
-      /> */}
+      />
     <BurningMiles />
         </>
     )
