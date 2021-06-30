@@ -14,10 +14,13 @@ import BurgerRoute from "../components/BurgerRoute";
 import RangersAdventure from "../components/RangersAdventure";
 import BurningMiles from "../components/BurningMiles";
 import SLTheatre from "../components/SLTheatre";
+import Compact from "../components/Compact";
 
 const Home = () => {
     return(
         <>
+
+<Compact />
 
 
 <ResponsiveEmbed
