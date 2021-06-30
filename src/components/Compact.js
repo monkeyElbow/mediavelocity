@@ -32,7 +32,7 @@ const Compact = () => {
 </Container>
 
 
-<Container fluid>
+<Container fluid className="my-2">
     <Row>
         <Col>
             <Image fluid
@@ -59,7 +59,7 @@ const Compact = () => {
     </Row>
 </Container>
 
-<Container fluid className="p-5 bg-dark my-2">
+<Container fluid className="p-5 bg-dark my-1">
 <Row>
     <Col>
 <ResponsiveEmbed
@@ -83,7 +83,7 @@ const Compact = () => {
 
 
 
-<Container fluid>
+<Container fluid className="my-2">
 <Row>
 <Col md={3} className="bg-dark text-white d-flex align-items-center p-5">
     <div>
@@ -101,14 +101,15 @@ const Compact = () => {
 />
 </Col>
 <Col>
-<Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/20246836680101.60dc63d57376f.jpg" />
+<Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b65b2d36680101.60dc6b23e1770.jpg"/>
 </Col>
 
 </Row>
 
 <Row>
     <Col md={6} className="p-5">
-    <Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b65b2d36680101.60dc6b23e1770.jpg"/>
+    <Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/20246836680101.60dc63d57376f.jpg" />
+ 
     
     </Col>
     <Col>
@@ -119,7 +120,7 @@ const Compact = () => {
 
 
 
-<Container fluid className="bg-dark py-2 px-0 text-white">
+<Container fluid className="py-2 px-0 text-white">
 
 
 
