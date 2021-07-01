@@ -15,25 +15,16 @@ import RangersAdventure from "../components/RangersAdventure";
 import BurningMiles from "../components/BurningMiles";
 import SLTheatre from "../components/SLTheatre";
 import Compact from "../components/Compact";
+import GrandmaCall from "../components/GrandmaCall";
 
 const Home = () => {
-    return(
-        <>
-
-<Compact />
-
-
-<ResponsiveEmbed
-        id="GrandmaCall"
-        src="https://www.youtube.com/embed/_DEaSL8w6-A"
-        allowFullScreen
-      />
-
-<RangersAdventure />
+  return (
+    <>
+      <Compact />
+      <GrandmaCall />
+      <RangersAdventure />
       <HellmansSalad />
       <CharterModule />
-
-
 
       <ResponsiveEmbed
         id="TacoTuesday"
@@ -41,9 +32,7 @@ const Home = () => {
         allowFullScreen
       />
 
-
-
-<BurgerRoute />
+      <BurgerRoute />
       <ResponsiveEmbed
         id="gsbWereFansToo"
         src="https://www.youtube.com/embed/Bm-U6Q6oob0"
@@ -56,7 +45,6 @@ const Home = () => {
       />
 
       <Gallery photos={PhotosConklin} />
-
 
       <ResponsiveEmbed
         id="gsbAtTheMovies"
@@ -80,16 +68,16 @@ const Home = () => {
         allowFullScreen
       />
 
-<SLTheatre />
+      <SLTheatre />
 
       <ResponsiveEmbed
         id="MothersBot"
         src="https://www.youtube.com/embed/PyM-2WfmZo4"
         allowFullScreen
       />
-    <BurningMiles />
-        </>
-    )
-  }
-  
-  export default Home;
+      <BurningMiles />
+    </>
+  );
+};
+
+export default Home;

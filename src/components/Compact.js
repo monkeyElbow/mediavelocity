@@ -19,11 +19,11 @@ const Compact = () => {
     <CompactLogo color="#fff" />
            </div>
        </Col>
-       <Col className="d-flex align-items-center text-white text-center bg-dark">
-           <div>
+       <Col className="d-flex align-items-center text-center bg-light">
+           <div style={{color:"#2D81C4"}}>
 
        <h4>CASE EXAMPLE: COMPACT FAMILY</h4>
-       <h5>Compassion organization.</h5>
+       <h5>Compassion organization. </h5>
        <p>We provide Brand Design, Photography, Web Development, Product development, Video Production, Large Scale Exhibit Graphics.</p>
 
            </div>
@@ -40,7 +40,7 @@ const Compact = () => {
             
             />
         </Col>
-        <Col md={3} className="bg-dark text-white d-flex align-items-center justify-content-center text-center">
+        <Col md={3} className="text-white d-flex align-items-center justify-content-center text-center" style={{backgroundColor:"#2D81C4"}}>
             <div>
 
             <h5>
@@ -59,7 +59,7 @@ const Compact = () => {
     </Row>
 </Container>
 
-<Container fluid className="p-5 bg-dark my-1">
+<Container fluid className="p-5 my-1" style={{backgroundColor:"#2D81C4"}}>
 <Row>
     <Col>
 <ResponsiveEmbed
@@ -85,7 +85,7 @@ const Compact = () => {
 
 <Container fluid className="my-2">
 <Row>
-<Col md={3} className="bg-dark text-white d-flex align-items-center p-5">
+<Col md={3} className="text-white d-flex align-items-center p-5" style={{backgroundColor:"#2D81C4"}}>
     <div>
 
     <h5>Print design
@@ -120,9 +120,11 @@ const Compact = () => {
 
 
 
-<Container fluid className="py-2 px-0 text-white">
-
-
+<Container fluid className="pt-4 pb-2 px-0 text-white"style={{backgroundColor:"#2D81C4"}}>
+<div className="pl-5">
+<h4>Photography</h4>
+<p>of COM<strong>ACT</strong> child representatives.</p>
+</div>
 
 <Gallery photos={PhotosCompactA}/>
 
