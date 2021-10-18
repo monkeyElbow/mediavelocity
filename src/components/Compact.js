@@ -14,17 +14,18 @@ const Compact = () => {
 <Container className="p-5" fluid style={{backgroundColor:"#2D81C4"}}>
    <Row>
        <Col md={6} className="p-5">
-           <div className="p-5">
-
+           
+           <div className="p-m-5 p-sm-0">
     <CompactLogo color="#fff" />
            </div>
        </Col>
-       <Col className="d-flex align-items-center text-center bg-light">
-           <div style={{color:"#2D81C4"}}>
-
-       <h4>CASE EXAMPLE: COMPACT FAMILY</h4>
+       <Col className="d-flex align-items-center text-center bg-light p-5">
+           <div>
+       <h4 style={{color:"#2D81C4"}}>
+           {/* CASE EXAMPLE: <br />  */}
+           COMPACT FAMILY</h4>
        <h5>Compassion organization. </h5>
-       <p>We provide Brand Design, Photography, Web Development, Product development, Video Production, Large Scale Exhibit Graphics.</p>
+       <p>Brand Design, Photography, Web Development, Product development, Video Production, Large Scale Exhibit Graphics.</p>
 
            </div>
        </Col>
@@ -32,7 +33,7 @@ const Compact = () => {
 </Container>
 
 
-<Container fluid className="my-2">
+<Container fluid className="py-2" style={{backgroundColor:"#2D81C4"}}>
     <Row>
         <Col>
             <Image fluid
@@ -40,7 +41,7 @@ const Compact = () => {
             
             />
         </Col>
-        <Col md={3} className="text-white d-flex align-items-center justify-content-center text-center" style={{backgroundColor:"#2D81C4"}}>
+        <Col md={3} className="text-white d-flex align-items-center justify-content-center text-center p-4" style={{backgroundColor:"#2D81C4"}}>
             <div>
 
             <h5>
@@ -59,6 +60,31 @@ const Compact = () => {
     </Row>
 </Container>
 
+
+<Container className="py-5">
+    <Row>
+            <Col className=" d-flex align-items-center text-center justify-content-center px-5" md={4} >
+                <div>
+
+            <h4 style={{color:"#2D81C4"}}>Web Development</h4>
+            <p>Firebase and reactJs</p>
+            <p>User training login and course tracking</p>
+            <p>Dynamic content such as jobs, news, stats etc.</p>
+            <p>Custom Admin Pages</p>
+                </div>
+            </Col>
+        {/* <Col md={4}>
+        <Image fluid src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/06bce300-36fd-46c1-bf88-2d6892e80b21_rw_1200.jpg?h=d7c275923a53d5975d5d4d9b026dbdec" 
+        />
+        </Col> */}
+        <Col>
+        <Image className="border" fluid src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/54a6cc25-b614-4160-aad1-5996b958e9a9_rw_1200.jpg?h=59c99abb998b47b315fe3df554a80431" 
+        />
+        </Col>
+    </Row>
+</Container>
+
+
 <Container fluid className="p-5 my-1" style={{backgroundColor:"#2D81C4"}}>
 <Row>
     <Col>
@@ -68,7 +94,7 @@ const Compact = () => {
         allowFullScreen
         />
     </Col>
-    <Col md={4} className="text-white text-center d-flex align-items-center justify-content-center">
+    <Col md={4} className="text-white text-center d-flex align-items-center justify-content-center pt-3">
         <div>
 
     <h5>Full video production</h5>
@@ -83,9 +109,9 @@ const Compact = () => {
 
 
 
-<Container fluid className="my-2">
+<Container fluid className="my-4">
 <Row>
-<Col md={3} className="text-white d-flex align-items-center p-5" style={{backgroundColor:"#2D81C4"}}>
+<Col md={3} className="text-white d-flex align-items-center p-4" style={{backgroundColor:"#2D81C4"}}>
     <div>
 
     <h5>Print design
@@ -96,12 +122,19 @@ const Compact = () => {
      </p>
     </div>
      </Col>
-<Col>
-<Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7553b836680101.60dc6782eb4ae.jpg"
+<Col md={4} className="p-0">
+<Image 
+fluid 
+// style={{height:"300px", width:"399px"}} 
+// className="h-auto d-inline-block"
+src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7553b836680101.60dc6782eb4ae.jpg"
 />
 </Col>
-<Col>
-<Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b65b2d36680101.60dc6b23e1770.jpg"/>
+<Col md={4} className="d-flex justify-content-center p-0">
+<Image 
+// style={{minHeight:"300px", width:"418px"}} 
+fluid 
+src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b65b2d36680101.60dc6b23e1770.jpg"/>
 </Col>
 
 </Row>
@@ -112,7 +145,7 @@ const Compact = () => {
  
     
     </Col>
-    <Col>
+    <Col className="p-2">
     <Image fluid src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0f56fe36680101.60dc51343c66e.jpg" />
     </Col>
 </Row>
@@ -120,10 +153,10 @@ const Compact = () => {
 
 
 
-<Container fluid className="pt-4 pb-2 px-0 text-white"style={{backgroundColor:"#2D81C4"}}>
-<div className="pl-5">
+<Container className="pt-4 pb-4 px-0 text-white"style={{backgroundColor:"#2D81C4"}}>
+<div className="ps-5">
 <h4>Photography</h4>
-<p>of COM<strong>ACT</strong> child representatives.</p>
+<p>COM<strong>ACT</strong> child representatives.</p>
 </div>
 
 <Gallery photos={PhotosCompactA}/>

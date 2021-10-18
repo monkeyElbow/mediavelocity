@@ -1,10 +1,9 @@
-const LogoMv = () => {
-    return(
+export default function LogoMv() {
+  return (
+    <>
+      
 
-<>
-
-
-<svg
+      <svg
       xmlns="http://www.w3.org/2000/svg"
       width="100%"
       height="100%"
@@ -19,9 +18,6 @@ const LogoMv = () => {
     </svg>
 
 
-</>
-
-    )
+    </>
+  )
 }
-
-export default LogoMv;

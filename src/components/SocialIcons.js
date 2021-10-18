@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaBehance, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin, FaFacebook } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -16,12 +16,10 @@ const SocialIcons = () => {
 {' '}
 <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.linkedin.com/in/jamesgerhold/"><FaLinkedin /></a>
 {' '}
-<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.behance.net/jamesgerhold"><FaBehance /></a>
-{' '}
+{/* <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.behance.net/jamesgerhold"><FaBehance /></a>
+{' '} */}
 
 <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.facebook.com/Mediavelocity/"><FaFacebook /></a>
-
-{/* <a rel="noopener noreferrer" className="SocialStyle ml-1 mr-1" target="_blank" href="https://www.instagram.com/compactfamilyservices/"><FaInstagram /></a> */}
 
 {/* <a rel="noopener noreferrer" className="SocialStyle mr-1" target="_blank" href="https://twitter.com/COMPACTfamily"><FaTwitter /></a> */}
 

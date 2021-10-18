@@ -1,82 +1,59 @@
-// import { Row, Col, Container, Image } from "react-bootstrap";
+import {  Container } from "react-bootstrap";
 import "../App.css";
-import ResponsiveEmbed from "react-responsive-embed";
+// import ResponsiveEmbed from "react-responsive-embed";
 // import { useSpring } from "react-spring";
 
-import Gallery from "react-photo-gallery";
-import { PhotosConklin } from "../components/PhotosConklin";
-// import { PhotosFood } from "./components/PhotosFood";
+// import Gallery from "react-photo-gallery";
+
 import CharterModule from "../components/CharterModule";
 import Magazine from "../components/Magazine";
 import GsbYourDay from "../components/gsbYourDay";
 import HellmansSalad from "../components/HellmanSalad";
-import BurgerRoute from "../components/BurgerRoute";
 import RangersAdventure from "../components/RangersAdventure";
 import BurningMiles from "../components/BurningMiles";
 import SLTheatre from "../components/SLTheatre";
 import Compact from "../components/Compact";
 import GrandmaCall from "../components/GrandmaCall";
+import HomeSplash from "../components/HomeSplash";
+import BeverageProf from "../components/BeverageProf";
+import TacoTuesGsb from "../components/TacoTuesGsb";
+import SportsFanGsb from "../components/SportsFanGsb";
+import WereFansTooGsb from "../components/WereFansTooGsb";
+import Conklin from "../components/Conklin";
+import AtTheMoviesGsb from "../components/AtTheMoviesGsb";
+import DebitOnOffGsb from "../components/DebitOnOffGsb";
+import GoatGsb from "../components/GoatGsb";
+import MothersDrone from "../components/MothersDrone";
 
 const Home = () => {
   return (
-    <>
+    <Container fluid className="bg-dark p-0">
+
+
+<HomeSplash />
+<Container className="bg-white p-0">
+
+
       <Compact />
       <GrandmaCall />
-      <RangersAdventure />
+      <BeverageProf />
       <HellmansSalad />
+      <RangersAdventure />
       <CharterModule />
-
-      <ResponsiveEmbed
-        id="TacoTuesday"
-        src="https://www.youtube.com/embed/NeOi3lTZauc"
-        allowFullScreen
-      />
-
-      <BurgerRoute />
-      <ResponsiveEmbed
-        id="gsbWereFansToo"
-        src="https://www.youtube.com/embed/Bm-U6Q6oob0"
-        allowFullScreen
-      />
-      <ResponsiveEmbed
-        id="MSUsportsFan"
-        src="https://www.youtube.com/embed/gtaFPmNaS4w"
-        allowFullScreen
-      />
-
-      <Gallery photos={PhotosConklin} />
-
-      <ResponsiveEmbed
-        id="gsbAtTheMovies"
-        src="https://www.youtube.com/embed/yh76dOxA2AY"
-        allowFullScreen
-      />
-
-      <Magazine />
-
-      <ResponsiveEmbed
-        id="DebitOnOff"
-        src="https://www.youtube.com/embed/gPQVVZWCJOQ"
-        allowFullScreen
-      />
-
+      <TacoTuesGsb />
+      <SportsFanGsb />
       <GsbYourDay />
-
-      <ResponsiveEmbed
-        id="gsbGOAT"
-        src="https://www.youtube.com/embed/tzwzX2O8L5U"
-        allowFullScreen
-      />
-
+      <Conklin />
+      <WereFansTooGsb />
+      <Magazine />
+      <AtTheMoviesGsb />
+      <DebitOnOffGsb />
+      <GoatGsb />
       <SLTheatre />
-
-      <ResponsiveEmbed
-        id="MothersBot"
-        src="https://www.youtube.com/embed/PyM-2WfmZo4"
-        allowFullScreen
-      />
+      <MothersDrone />
       <BurningMiles />
-    </>
+        </Container>
+    </Container>
   );
 };
 

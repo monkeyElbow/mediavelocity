@@ -1,1 +1,1 @@
-Personal react portfolio site.
+Mediavelocity portfolio site.
