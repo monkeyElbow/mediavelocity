@@ -109,7 +109,7 @@ const Compact = () => {
 
 
 
-<Container fluid className="my-4">
+<Container fluid className="my-0">
 <Row>
 <Col md={3} className="text-white d-flex align-items-center p-4" style={{backgroundColor:"#2D81C4"}}>
     <div>
@@ -153,10 +153,10 @@ src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b65b2d36680101.6
 
 
 
-<Container className="pt-4 pb-4 px-0 text-white"style={{backgroundColor:"#2D81C4"}}>
+<Container className="p-4 px-0 text-white"style={{backgroundColor:"#2D81C4"}}>
 <div className="ps-5">
 <h4>Photography</h4>
-<p>COM<strong>ACT</strong> child representatives.</p>
+<p>COMP<strong>ACT</strong> child representatives.</p>
 </div>
 
 <Gallery photos={PhotosCompactA}/>
