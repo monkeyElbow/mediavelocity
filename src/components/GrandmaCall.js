@@ -17,7 +17,7 @@ const GrandmaCall = () => {
         <div>
     <h5>Great Southern Bank</h5>
     <h3>"Grandma Call"</h3> <br />
-    <h5>Video production.</h5>
+    {/* <h5>Video production.</h5> */}
     <p>Camera, edit, motion graphics.</p>
         </div>
     </Col>

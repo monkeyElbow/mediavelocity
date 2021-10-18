@@ -14,9 +14,9 @@ const CharterModule = () => {
         >
         <Row>
         <Col md={4} className="d-flex flex-column justify-content-center text-end text-white">
-          <h5>
+          <h4>
             Charter Schools USA
-          </h5>
+          </h4>
           <p>Photography for advertising collateral and web.</p>
           <p>Mulitple market video support for cable and YouTube advertising.</p>
         </Col>

@@ -20,8 +20,8 @@ export default function MothersDrone() {
                 <div>
             <h4>Mother's Brewery</h4>
             <h5>"Beer Delivery Systems"</h5>
-            <h5>Video production.</h5>
-            <p>Camera. Video Edit.</p>
+            {/* <h5>Video production.</h5> */}
+            <p>Video production. Camera. Video Edit.</p>
                 </div>
             </Col>
         </Row>

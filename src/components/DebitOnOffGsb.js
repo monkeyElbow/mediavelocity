@@ -9,11 +9,6 @@ export default function DebitOnOffGsb() {
 style={{backgroundColor:"darkorange"}}
 >
 <Row>
-    <Col className="p-3 d-flex flex-column justify-content-center text-white text-end align-items-end">
-    <h5>Great Southern Bank</h5>
-    <h4>"Debit On/Off"</h4>
-    <p>Video shoot and edit.</p>
-    </Col>
 
     <Col md={8}>
     <ResponsiveEmbed
@@ -21,6 +16,11 @@ style={{backgroundColor:"darkorange"}}
         src="https://www.youtube.com/embed/gPQVVZWCJOQ"
         allowFullScreen
         />
+    </Col>
+    <Col className="p-3 d-flex flex-column justify-content-center text-white text-start align-items-start">
+    <h5>Great Southern Bank</h5>
+    <h4>"Debit On/Off"</h4>
+    <p>Video shoot and edit.</p>
     </Col>
 </Row>
         </Container>

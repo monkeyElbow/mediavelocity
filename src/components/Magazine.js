@@ -16,7 +16,7 @@ export default function Magazine() {
           <Image fluid src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/653f92285a840727152f6fb9_rw_1200.jpg?h=e9de3c76ed7ea5d663c881b72aa6ad6f" />
          
         </Col>
-        <Col className="py-3 d-flex justify-content-center align-items-center">
+        <Col className="py-3 d-flex justify-content-start align-items-center">
           <h4>Magazine Photography</h4>
         </Col>
         </Row>
