@@ -12,8 +12,10 @@ const SLTheatre = () => {
           <Image fluid src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/62e8dab77adc28046117c51c_rw_1200.jpg?h=fa2a137a5ad235011aa899f13ac954b7" />
         
         </Col>
-        <Col className="p-3 text-white d-flex flex-column justify-content-end">
-          <div className=" d-flex flex-column justify-content-center" style={{minHeight:"250px"}}>
+        <Col className="p-0 me-1 text-white d-flex flex-column justify-content-end">
+          <div className=" d-flex flex-column justify-content-center h-auto p-3" 
+          // style={{minHeight:"250px"}}
+          >
 <h4>Springfield Little Theatre</h4>
 <h5>Big Party</h5>
 <p>Photography. Design.</p>
