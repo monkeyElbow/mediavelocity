@@ -3,20 +3,20 @@ import { Row, Col, Container, Image } from 'react-bootstrap';
 import ResponsiveEmbed from "react-responsive-embed";
 
 import Gallery from 'react-photo-gallery';
-import {PhotosCharter} from './PhotosCharter';
+import {PhotosCharter} from '../../gallery/PhotosCharter';
 
 
-const CharterModule = () => {
+export default function Csusa() {
+  document.title = "Mediavelocity - Charter Schools USA"
     return(
 <>
-        <Container fluid className="p-4"
-        style={{backgroundColor:"#800"}}
+        <Container fluid className="p-0"
         >
         <Row>
-        <Col md={4} className="d-flex flex-column justify-content-center text-end text-white">
-          <h4>
+        <Col md={4} className="d-flex flex-column justify-content-center text-end p-5">
+          <h1 className="fs-1 fw-bold">
             Charter Schools USA
-          </h4>
+          </h1>
           <p>Photography for advertising collateral and web.</p>
           <p>Mulitple market video support for cable and YouTube advertising.</p>
         </Col>
@@ -39,5 +39,3 @@ allowFullScreen
 </>
     )
 }
-
-export default CharterModule

@@ -3,14 +3,14 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 
 export default function SportsFanGsb() {
+    document.title = "Mediavelocity - GSB Sports Fan"
     return (
         <>
-<Container className="px-4 py-5"
-style={{backgroundColor:"#5E0009"}}
+<Container fluid className="p-0"
 >
 <Row>
-    <Col className="p-3 d-flex flex-column justify-content-center text-white text-end align-items-end">
-    <h5>Great Southern Bank</h5>
+    <Col className="p-3 d-flex flex-column justify-content-center text-end align-items-end p-5">
+    <h1 className="fw-bold fs-1">Great Southern Bank</h1>
     <h4>"MSU Sports Fan"</h4>
     <p>Video shoot and edit.</p>
     </Col>

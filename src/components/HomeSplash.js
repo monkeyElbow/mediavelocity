@@ -13,14 +13,13 @@ export default function HomeSplash() {
 
 
 
-<MvWireLogo />
+{/* <MvWireLogo /> */}
+<div className="d-flex justify-items-start">
 
+<h5 className="text-uppercase fs-6 lead">
+    you found your solution
+</h5>
 
-<div className="d-flex justify-items-center">
-
-{/* <animated.h2 style={props}>mediavelocity</animated.h2> */}
-{/* <h2>photography</h2> */}
-{/* <h2>branding</h2> */}
 </div>
     </Container>
 
@@ -31,23 +30,7 @@ export default function HomeSplash() {
 
 
 const MvWireLogo = () => {
-    
-    // const props = useSpring({
-        //     reset: true,
-        //     to:{opacity:1}, 
-        //     from: {opacity:0},
-        //     delay: 600,
-        // })
-        // const {x} = useSpring()
-        
-        // const chainRef = useRef();
-        // const delays = {
-            // demo: 1400,
-            // item2: 500,
-            // logo: 100,
-            // etc: 0,
-            // }
-            
+                
             const props = useSpring({
                 config: {
                     duration: 650,
@@ -63,11 +46,8 @@ const MvWireLogo = () => {
                     // {strokeDashoffset: 0, opacity: 1},
                 ],
                 delay: 700,
-                // ref: chainRef,   
             })
-            
-            // useChain([chainRef])
-            
+                        
             return(
                 <div className="d-flex flex-column align-items-center">
                    

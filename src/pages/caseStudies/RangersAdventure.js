@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 const RangersAdventure = () => {
+    document.title = "Mediavelocity - Royal Rangers Design"
     return(
         <>
 <Container className="p-4">

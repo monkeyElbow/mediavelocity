@@ -1,7 +1,7 @@
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const SonnyBIO = () => {
-
+    document.title = "Mediavelocity - Sonny Carder"
 
     return(
 <>
