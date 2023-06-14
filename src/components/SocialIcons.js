@@ -7,26 +7,32 @@ const SocialIcons = () => {
 
 
   return (
-    <div className="p-1">
-     
-     <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="mailto:james.gerhold@mediavelocity.com"><FaEnvelope /></a>
-
-{' '}
-<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="tel:+14175974439"><FaPhone /></a>
-{' '}
-<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.linkedin.com/in/jamesgerhold/"><FaLinkedin /></a>
-{' '}
-{/* <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.behance.net/jamesgerhold"><FaBehance /></a>
-{' '} */}
-
-<a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.facebook.com/Mediavelocity/"><FaFacebook /></a>
-
-{/* <a rel="noopener noreferrer" className="SocialStyle mr-1" target="_blank" href="https://twitter.com/COMPACTfamily"><FaTwitter /></a> */}
-
-{/* <a rel="noopener noreferrer" className="SocialStyle" target="_blank" href="https://www.youtube.com/channel/UC7LHU70Uou3e8DsrNj6CnNA/"><FaYoutube /></a> */}
-
-    
-    </div>
-  );
+    <ul className="SocialStyle list-inline p-0">
+    <li className="list-inline-item mx-2">
+      <a rel="noopener noreferrer" href="mailto:james.gerhold@mediavelocity.com">
+        <FaEnvelope />
+        <span className="visually-hidden">Email</span>
+      </a>
+    </li>
+    <li className="list-inline-item mx-2">
+      <a rel="noopener noreferrer" href="tel:+14175974439">
+        <FaPhone />
+        <span className="visually-hidden">Phone</span>
+      </a>
+    </li>
+    <li className="list-inline-item mx-2">
+      <a rel="noopener noreferrer" href="https://www.linkedin.com/in/jamesgerhold/">
+        <FaLinkedin />
+        <span className="visually-hidden">LinkedIn</span>
+      </a>
+    </li>
+    <li className="list-inline-item mx-2">
+      <a rel="noopener noreferrer" href="https://www.facebook.com/Mediavelocity/">
+        <FaFacebook />
+        <span className="visually-hidden">Facebook</span>
+      </a>
+    </li>
+  </ul>
+);
 };
  export default SocialIcons;

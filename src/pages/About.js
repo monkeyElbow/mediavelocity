@@ -14,12 +14,12 @@ export default function About() {
       >
         <Row>
           <Col
-            md={6}
+            md={9}
             className="d-flex align-items-center justify-content-start pe-5"
             style={{ minHeight: "65vh" }}
           >
             <h1 className="text-uppercase ls-3 lead" style={{fontSize:'8vw', lineHeight:'90%'}}>
-             The creative <span className="serif fst-italic text-capitalize"> talent</span> you need
+             Creativity<span className="serif fst-italic text-lowercase"> Meets </span>Strategy 
             </h1>
           </Col>
         </Row>

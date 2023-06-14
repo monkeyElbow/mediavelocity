@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Link, 
+import { 
+    // Link, 
     // Redirect, 
     useNavigate } from "react-router-dom";
 import { Container, Card, Form, Alert, Button } from "react-bootstrap";
@@ -82,10 +83,10 @@ onChange={handlePasswordChange}
 </Form>
 
 <div className="w.100 text-center mt-3">
-<Link to="/forgot-password">Forgot Password?</Link>
+{/* <Link to="/forgot-password">Forgot Password?</Link>
 <br />
 <br />
-<Link to="/signup">Need an account? Click here</Link>
+<Link to="/signup">Need an account? Click here</Link> */}
 </div>
 
     </Card.Body>

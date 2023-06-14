@@ -1,36 +1,55 @@
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+// import { useState } from "react";
 import studio from '../img/studio.jpg'
-import { db } from "../util/firebase";
-import { addDoc, collection } from "@firebase/firestore";
+// import { db } from "../util/firebase";
+// import { addDoc, collection } from "@firebase/firestore";
 
 export default function Contact() {
   document.title = "Mediavelocity Contact"
 
-  const [date] = useState(new Date());
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [msg, setMsg] = useState("");
-  const [msgSent, setMsgSent] = useState(false);
-  const [loading, setLoading] = useState(false);
 
-  async function sendMsg(e) {
-    e.preventDefault();
-    setLoading(true);
-    await addDoc(collection(db, "contact"), {
-      form: "mediavelocity contact form",
-      date: date,
-      first_name: firstName,
-      last_name: lastName,
-      user_phone: phone,
-      user_email: email,
-      message: msg
-    })
-    setMsgSent(true);
-    setLoading(false)
-  }
+  const obfuscate = (str) => {
+    return str.replace(/./g, (char) => {
+      if (char === '@') {
+        return '[at]';
+      } else if (char === '.') {
+        return '[dot]';
+      } else {
+        return char;
+      }
+    });
+  };
+
+  const email = 'james@mediavelocity.com';
+  const phone = '417-597-4439';
+
+
+  // firebase
+
+  // const [date] = useState(new Date());
+  // const [firstName, setFirstName] = useState("");
+  // const [lastName, setLastName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [phone, setPhone] = useState("");
+  // const [msg, setMsg] = useState("");
+  // const [msgSent, setMsgSent] = useState(false);
+  // const [loading, setLoading] = useState(false);
+
+  // async function sendMsg(e) {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   await addDoc(collection(db, "contact"), {
+  //     form: "mediavelocity contact form",
+  //     date: date,
+  //     first_name: firstName,
+  //     last_name: lastName,
+  //     user_phone: phone,
+  //     user_email: email,
+  //     message: msg
+  //   })
+  //   setMsgSent(true);
+  //   setLoading(false)
+  // }
 
   return (
     <>
@@ -56,7 +75,16 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
-      <Container fluid>
+
+<Container style={{minHeight:"50vh"}}
+className="d-flex justify-content-center align-items-center"
+>
+<h5 className="fw-bold">Email <a href={'mailto:' + obfuscate(email)}>{obfuscate(email)}</a>
+ or call <a href={'tel:' + phone.replace(/-/g, '')}>{phone}</a>.</h5>
+
+</Container>
+      
+      {/* <Container fluid>
         <Row>
           <Col
             md={5}
@@ -85,7 +113,7 @@ export default function Contact() {
                   <Row className="my-4">
                     <Col>
                       <Form.Group>
-                        {/* <Form.Label>First Name</Form.Label> */}
+      
                         <Form.Control
                           className="input ls-3"
                           type="text"
@@ -97,7 +125,7 @@ export default function Contact() {
                     </Col>
                     <Col>
                       <Form.Group>
-                        {/* <Form.Label>Last Name</Form.Label> */}
+
                         <Form.Control
                           className="input ls-3"
                           type="text"
@@ -109,7 +137,7 @@ export default function Contact() {
                     </Col>
                   </Row>
                   <Form.Group>
-                    {/* <Form.Label>email</Form.Label> */}
+
                     <Form.Control
                       className="input my-4 ls-3"
                       type="email"
@@ -120,7 +148,7 @@ export default function Contact() {
                   </Form.Group>
 
                   <Form.Group>
-                    {/* <Form.Label>Phone</Form.Label> */}
+
                     <Form.Control
                       className="input my-4 ls-3"
                       type="text"
@@ -130,7 +158,7 @@ export default function Contact() {
                     />
                   </Form.Group>
                   <Form.Group>
-                    {/* <Form.Label>message</Form.Label> */}
+
                     <Form.Control
                       className="message my-4 ls-3"
                       as="textarea"
@@ -148,7 +176,7 @@ export default function Contact() {
             )}
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 }

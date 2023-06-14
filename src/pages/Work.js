@@ -7,6 +7,11 @@ export default function Work() {
   document.title = "Mediavelocity Work"
 
   function WorkBlock({ name, category, photoUrl, link, backgroundSize, backgroundPosition }) {
+
+    const categories = Array.isArray(category) ? category.join(' ') : category;
+    // If category is an array, join the elements with a space
+    // If category is a string, just use the original value
+
     return (
       <Col md={6}
         className="block p-4"
@@ -15,7 +20,7 @@ export default function Work() {
       backgroundSize:`${backgroundSize}`,
    }}
       >
-        <h2 className="fs-6">{category}</h2>
+        <h2 className="fs-6">{categories}</h2>
         <Link className="stretched-link" to={link}>
           <h3>{name}</h3>
         </Link>

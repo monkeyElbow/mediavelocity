@@ -6,15 +6,21 @@ export default function Gallery() {
   document.title = "Mediavelocity Gallery"
   
   function GalleryBlock({ name, category, photoUrl, link, backgroundPosition, backgroundSize }) {
+
+    const categories = Array.isArray(category) ? category.join(' ') : category;
+    // If category is an array, join the elements with a space
+    // If category is a string, just use the original value
+
     return (
       <Col
         className="block p-4"
-        style={{ backgroundImage: `url(${photoUrl})`, 
-        backgroundPosition:`${backgroundPosition}`,
-        backgroundSize:`${backgroundSize}`
-    }}
+      style={{ 
+        backgroundImage: `url(${photoUrl})`, 
+        backgroundSize: 'cover',
+
+      }}
       >
-        <h2>{category}</h2>
+        <h2>{categories}</h2>
         <Link className="stretched-link" to={link}>
           <h3>{name}</h3>
         </Link>

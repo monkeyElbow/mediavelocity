@@ -45,7 +45,7 @@ const Home = () => {
           >
             <h2>view case study</h2>
             <a className="stretched-link" href="/compact">
-              <h3>COMPACT</h3>
+              <h3>COMPACT FAMILY</h3>
             </a>
           </Col>
 
@@ -79,7 +79,9 @@ const Home = () => {
 <Col
             className="p-4 block position-relative"
             style={{ backgroundImage:
-              "url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/4369d57a-f067-4ef4-a945-7fb217efdd14_rw_1200.jpg?h=d4378c35f5d4d5a5245da6c60f304043)" }}
+              "url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/9c0c32ffbfb6bec1105e5a0038d455f6/4369d57a-f067-4ef4-a945-7fb217efdd14_rw_1200.jpg?h=d4378c35f5d4d5a5245da6c60f304043)"
+              // ,backgroundPosition: "0px 10px"
+ ,             backgroundSize: "cover", }}
           >
             <h2>view case study</h2>
             <a className="stretched-link" href="/hellmanns-salad-recipes">
